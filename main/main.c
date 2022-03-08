@@ -21,7 +21,7 @@ static int8_t Motor_Angle;//用于本地计算得到高角值，并控制百叶�
 
 
 //static uint8_t WallKeyId[4]={0x24,0x31,0x04,0x00};  //定义KEY ID 后续在eeprom中读取，蓝牙发送
-static uint8_t WallKeyId[4]={0x52,0x30,0x04,0x00};
+static uint8_t WallKeyId[4]={0x4b,0x8d,0x05,0x00};
 static int8_t Switch=0;//定义开关左右方向
 
 void timer_periodic_cb(void *arg);//定时器函数声明
